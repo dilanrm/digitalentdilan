@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
+    <style>
+        .disabled{pointer-events:none;}
+</style>
 </head>
 
 <body>
@@ -19,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="index.html">Home </a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Project <span class="caret"></span></a>
+                    <li class="dropdown disabled"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Project <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="web_project.html">Web Project</a></li>
                             <li role="presentation"><a href="android_app.html">Android App</a></li>
                         </ul>
                     </li>
-                    <li role="presentation"><a href="game.html">Games </a></li>
+                    <li role="presentation" class="disabled"><a href="game.html">Games </a></li>
                     <li class="active" role="presentation"><a href="about.html">About Me</a></li>
                 </ul>
             </div>
