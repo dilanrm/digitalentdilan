@@ -11,7 +11,7 @@ $row = mysqli_fetch_assoc($res);
 ?>
     <h1 class="text-center">Play</h1>
 	<h2><?php echo $row['nama']; ?></h2>
-	<center> <iframe src="<?php echo $row['file'];?>" name="iframe" width="570px" height="450px" frameborder="0" allowfullscreen>
+	<center> <iframe src="assets/games/<?php echo $row['file'];?>" name="iframe" width="570px" height="450px" frameborder="0" allowfullscreen>
 	</iframe></center>
 	<br>
 	<h4>*Note: Exit and fullscreen button may not works on play mode. So, don't force your mouse, touchpad, or whatever is it to overly click it. Just move to another page.</h4>
