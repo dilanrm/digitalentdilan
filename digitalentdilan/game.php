@@ -3,7 +3,7 @@
 	<title>Games</title>
 <?php 
 include 'navi.php'; 
-$sql = 'Select * from web.games';
+$sql = 'Select * from u194943051_dbhos.games';
 $res = mysqli_query($conn, $sql);
 echo '<h1 class="text-center">Game List</h1>';
 while($row=mysqli_fetch_assoc($res)){ ?>
